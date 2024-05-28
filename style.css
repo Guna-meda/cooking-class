@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF6DC;
+    /* width: 100vw; */
+}
+
+.logo img {
+    height: 90px;
+}
+
+.navmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+    margin-right: 30px;
+}
+
+.icon1 {
+    display: none;
+    font-weight: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+
+    .navmain h2 {
+        display: none;
+
+    .icon1 {
+        display: block;
+        height: 3rem;
+}
