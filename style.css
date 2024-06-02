@@ -1,11 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap');
+
 
 .navbar {
   height: 90px;
@@ -55,9 +57,9 @@
 }
 
 .one p {
-  padding-left: 10%;
-  font-size: 4rem;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding-left: 10%;
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .one span {
@@ -81,64 +83,22 @@
   height: 70%;
 }
 
-.hero2 {
-  height: 70vh;
-  background-color: #fcaeae;
-}
 
-.head1 {
-  padding: 30px;
-}
 
-.head1 p {
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-size: 2rem;
-  color: #22092c;
-}
 
-.containers {
-  height: 95%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: #fcaeae;
-}
 
-.box {
-  height: 90%;
-  width: 30%;
-  background-color: #ffeadd;
-  border-radius: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
 
-.box p {
-  font-family: "Playfair Display", serif;
-  font-weight: 600;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
-  text-decoration: dashed;
-}
 
-.box img {
-  background-size: cover;
-  height: 60%;
-}
 
-@media (max-width: 600px) {
-  .navbar {
-    width: 100%;
-  }
+
+
+
+
+@media (max-width:600px) {
+
+    .navbar {
+        width: 100%;
+    }
 
   .navmain h2 {
     display: none;
@@ -158,41 +118,23 @@
     height: 60%;
   }
 
-  .one p {
-    margin-top: 5px;
-    font-size: 2rem;
-  }
+    .one p {
+        margin-top: 5px;
+        font-size: 4rem;
+    }
 
-  .one h4 {
-    margin: 10px 50px;
-    font-size: 1rem;
-  }
+    .one h4 {
+        margin: 10px 50px;
+        font-size: 1.5rem;
+    }
 
   .two {
     width: 100%;
   }
 
-  .two img {
-    position: relative;
-    width: 90%;
-  }
+    .two img {
+        position: relative;
+        width: 80%;
+    }
 
-  .hero2 {
-    height: 1400px;
-  }
-
-  .containers {
-    flex-direction: column;
-    height: 900px;
-    gap: 20px;
-    background-color: #22092c;
-    margin-top: 10px;
-  }
-
-  .box {
-    margin-top: 35px;
-    height: 40%;
-    width: 85%;
-    gap: 20px;
-  }
 }
